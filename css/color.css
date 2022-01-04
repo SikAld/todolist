@@ -1,0 +1,13 @@
+:root{
+    --red-promeo: #E43F21;
+    --darkblue-promeo: #0A5B7D;
+    --skyblue-promeo: #21A1D5;
+    --success-promeo:#48e421;
+    --warn-promeo: #e49621;
+    --white-promeo: #fff;
+    --black-promeo: #2e2d2d;
+}
+
+.gradient{
+    background: linear-gradient(90deg, rgba(10,91,125,1) 0%, rgba(33,161,213,1) 50%, rgba(228,63,33,1) 100%);
+}

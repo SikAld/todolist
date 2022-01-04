@@ -1,0 +1,76 @@
+@import url("reset.css");
+@import url("color.css");
+@import url("login.css");
+@import url("work.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    font-weight: 300;
+    background-color: var(--white-promeo);
+    color: var(--black-promeo);
+}
+
+.form-input{
+    border: none;
+    border-bottom: solid 1px black;
+    outline: none;
+    padding: 4px 3px;
+    margin-bottom: 10px;
+    background: none;
+}
+
+.btn{
+    padding: 9px 16px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    color: var(--white-promeo);
+    background: var(--darkblue-promeo);
+    transition: all .2s ease;
+}
+
+.btn-success{
+    color: var(--white-promeo);
+    background: var(--success-promeo);
+}
+
+.btn-warn{
+    color: var(--white-promeo);
+    background: var(--warn-promeo);
+}
+
+.btn-err{
+    color: var(--white-promeo);
+    background: var(--red-promeo);
+}
+
+
+.btn:hover{
+    color: var(--darkblue-promeo);
+    background: var(--white-promeo);
+    border: solid 1px var(--darkblue-promeo);
+}
+
+.btn-success:hover{
+    color: var(--success-promeo);
+    background: var(--black-promeo);
+    border: solid 1px var(--success-promeo);
+
+}
+
+.btn-warn:hover{
+    color: var(--warn-promeo);
+    background: var(--black-promeo);
+    border: solid 1px var(--warn-promeo);
+
+}
+
+.btn-err:hover{
+    color: var(--red-promeo);
+    background: var(--black-promeo);
+    border: solid 1px var(--red-promeo);
+
+}
